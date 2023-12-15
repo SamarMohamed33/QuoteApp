@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #dee9f5;
+  height: 100%;
+}
+.container {
+  min-height: 100%;
+}
+h1 {
+  font-family: impact;
+  src: url(../impact.ttf);
+  font-size: 80px;
+  color: #131735;
+}
+
+.quote-info {
+  background-color: #1d2776;
+  color: white;
+  border-radius: 25px;
+  padding: 25px;
+}
+#quote {
+  position: relative;
+  padding-bottom: 20px;
+  font-size: x-large;
+}
+#quote::after {
+  position: absolute;
+  content: "";
+  background-color: #425877;
+  width: 30%;
+  height: 2px;
+  left: 35%;
+  bottom: 0px;
+}
+#icon {
+  font-size: 35px;
+  opacity: 0.5;
+}
+.btn {
+  background-color: #425877 !important;
+  color: white !important;
+}
+.btn:focus {
+  box-shadow: none;
+}
+@media (max-width: 768px) {
+  .quote-info {
+    width: 100% !important;
+  }
+}

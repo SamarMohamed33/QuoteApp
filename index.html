@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container text-center py-5">
+      <h1 class="text-center">Quote of the Day</h1>
+      <button onclick="newQuote()" class="btn my-3 fs-5">New Quote</button>
+      <div class="quote-info w-75 mx-auto my-5 text-center">
+        <i class="fa-solid fa-quote-right" id="icon"></i>
+        <h3 id="quote"></h3>
+        <p id="author"></p>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
